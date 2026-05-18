@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Agende sua consulta com a Dra. Marcela Leal da Cruz, uropediatra em Jundiaí e São Paulo. WhatsApp, formulário ou telefone.">
+  <title>Contato e Agendamento | Dra. Marcela Leal — Uropediatra Jundiaí e SP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header__inner">
+    <a href="index.html" class="logo"><span class="logo__nome">Dra. Marcela Leal</span><span class="logo__esp">Uropediatra</span></a>
+    <nav class="nav">
+      <a href="sobre.html">Sobre</a><a href="tratamentos/index.html">Tratamentos</a>
+      <a href="telemedicina.html">Telemedicina</a><a href="perguntas-frequentes.html">Perguntas</a><a href="contato.html">Contato</a>
+    </nav>
+    <a href="https://wa.me/5511955585111" class="btn btn--laranja header__cta" target="_blank">📅 Agendar Consulta</a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobile-menu">
+  <button class="mobile-menu__close" id="close-menu">✕</button>
+  <a href="sobre.html">Sobre</a><a href="tratamentos/index.html">Tratamentos</a>
+  <a href="telemedicina.html">Telemedicina</a><a href="perguntas-frequentes.html">Perguntas</a><a href="contato.html">Contato</a>
+  <a href="https://wa.me/5511955585111" class="btn btn--whatsapp" target="_blank">💬 WhatsApp</a>
+</div>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="tag">Agendamento</span>
+    <h1>Entre em contato</h1>
+    <p>Escolha o canal mais conveniente. Atendemos em Jundiaí e São Paulo — também por telemedicina.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <!-- Botões de WhatsApp em destaque -->
+    <div style="display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-bottom:48px">
+      <a href="https://wa.me/5511955585111?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta."
+         class="btn btn--whatsapp" target="_blank" rel="noopener"
+         style="justify-content:center;padding:18px;font-size:1.05rem">
+        💬 WhatsApp Jundiaí — (11) 95558-5111
+      </a>
+      <a href="https://wa.me/5511311552800?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20em%20São%20Paulo."
+         class="btn btn--whatsapp" target="_blank" rel="noopener"
+         style="justify-content:center;padding:18px;font-size:1.05rem">
+        💬 WhatsApp São Paulo — (11) 3155-2800
+      </a>
+    </div>
+
+    <div class="contato-grid">
+      <!-- Formulário -->
+      <div>
+        <h2 style="margin-bottom:24px">Formulário de contato</h2>
+        <div id="form-success" style="display:none;background:#E8F6F5;border:1px solid var(--teal);border-radius:12px;padding:16px 20px;margin-bottom:20px;color:var(--teal);font-weight:600">
+          ✅ Mensagem enviada! Entraremos em contato em breve.
+        </div>
+        <form id="contato-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nome-resp">Nome do responsável *</label>
+              <input type="text" id="nome-resp" name="nome_responsavel" required placeholder="Seu nome completo">
+            </div>
+            <div class="form-group">
+              <label for="nome-crianca">Nome da criança *</label>
+              <input type="text" id="nome-crianca" name="nome_crianca" required placeholder="Nome da criança">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="idade">Idade da criança *</label>
+              <input type="text" id="idade" name="idade" required placeholder="Ex: 3 anos, 8 meses">
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone / WhatsApp *</label>
+              <input type="tel" id="telefone" name="telefone" required placeholder="(11) 99999-9999">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com">
+          </div>
+          <div class="form-group">
+            <label for="local">Local de atendimento preferido *</label>
+            <select id="local" name="local" required>
+              <option value="">Selecione...</option>
+              <option>Jundiaí — Clínica Vacine</option>
+              <option>São Paulo — Hospital Infantil Sabará</option>
+              <option>Telemedicina (online)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="motivo">Motivo da consulta *</label>
+            <textarea id="motivo" name="motivo" required placeholder="Descreva brevemente o motivo da consulta (ex: fimose, testículo não descido, xixi na cama...)"></textarea>
+          </div>
+          <button type="submit" class="btn btn--azul" style="width:100%;justify-content:center;padding:16px">
+            Enviar mensagem →
+          </button>
+          <p style="font-size:0.8rem;color:var(--cinza);margin-top:12px;text-align:center">
+            Retorno em até 1 dia útil. Para urgências, use o WhatsApp.
+          </p>
+        </form>
+      </div>
+
+      <!-- Info -->
+      <div style="display:flex;flex-direction:column;gap:24px">
+        <div class="sidebar-card">
+          <h3>📍 Jundiaí</h3>
+          <p><strong>Clínica Vacine</strong><br>
+          Av. Dona Manoela Lacerda de Vergueiro, 200<br>
+          Jundiaí — SP</p>
+          <p style="margin-top:8px">📞 (11) 4521-5757 / 4521-6714<br>
+          📱 WhatsApp: (11) 95558-5111</p>
+        </div>
+        <div class="sidebar-card">
+          <h3>📍 São Paulo</h3>
+          <p><strong>Hospital Infantil Sabará</strong><br>
+          Centro de Excelência<br>
+          São Paulo — SP</p>
+          <p style="margin-top:8px">📱 WhatsApp: (11) 3155-2800</p>
+        </div>
+        <div class="sidebar-card">
+          <h3>🩺 Para médicos</h3>
+          <p>Pediatras, neonatologistas e obstetras: canal direto para encaminhamento. Laudo de retorno em até 48h.</p>
+          <a href="https://wa.me/5511955585111?text=Olá,%20sou%20médico%20e%20gostaria%20de%20encaminhar%20um%20paciente."
+             class="btn btn--azul" target="_blank" rel="noopener">💬 WhatsApp para médicos</a>
+        </div>
+        <div class="sidebar-card">
+          <h3>💻 Telemedicina</h3>
+          <p>Consultas online disponíveis para pacientes de qualquer cidade ou estado.</p>
+          <a href="telemedicina.html" class="btn btn--outline">Saiba mais →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__logo"><div class="logo"><span class="logo__nome">Dra. Marcela Leal da Cruz</span><span class="logo__esp">Uropediatra</span></div></div>
+      <div><h4>Navegação</h4><ul><li><a href="sobre.html">Sobre</a></li><li><a href="tratamentos/index.html">Tratamentos</a></li><li><a href="telemedicina.html">Telemedicina</a></li><li><a href="perguntas-frequentes.html">Perguntas</a></li></ul></div>
+      <div><h4>Tratamentos</h4><ul><li><a href="tratamentos/fimose.html">Fimose</a></li><li><a href="tratamentos/criptorquidia.html">Criptorquidia</a></li><li><a href="tratamentos/enurese-noturna.html">Enurese Noturna</a></li></ul></div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Dra. Marcela Leal da Cruz.</span>
+      <span class="footer__crm">CRM-SP 160106 | RQE 69202</span>
+    </div>
+  </div>
+</footer>
+
+<div class="whatsapp-float">
+  <a href="https://wa.me/5511311552800" class="whatsapp-float__btn" target="_blank"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>SP</a>
+  <a href="https://wa.me/5511955585111" class="whatsapp-float__btn whatsapp-float__btn--jundiai" target="_blank"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>Jundiaí</a>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dra. Marcela Leal da Cruz — Uropediatra com Doutorado pela UNIFESP e formação no Hospital SickKids de Toronto. Atende em Jundiaí e São Paulo. Agende sua consulta.">
+  <meta name="robots" content="index, follow">
+  <title>Uropediatra Jundiaí e São Paulo | Dra. Marcela Leal da Cruz</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dra. Marcela Leal da Cruz — Uropediatra">
+  <meta property="og:description" content="Especialista em uropediatria com doutorado UNIFESP e formação SickKids Toronto. Atende em Jundiaí e São Paulo.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.uropediatra.com.br">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dra. Marcela Leal da Cruz",
+    "description": "Uropediatra com doutorado pela UNIFESP e formação no Hospital SickKids de Toronto. Especialista em condições urológicas e genitais em crianças e adolescentes.",
+    "medicalSpecialty": "Urologia Pediátrica",
+    "url": "https://www.uropediatra.com.br",
+    "telephone": ["+55-11-95558-5111", "+55-11-3155-2800"],
+    "address": [
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Dona Manoela Lacerda de Vergueiro, 200",
+        "addressLocality": "Jundiaí",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      {
+        "@type": "PostalAddress",
+        "streetAddress": "Hospital Infantil Sabará",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      }
+    ],
+    "alumniOf": [
+      {"@type": "CollegeOrUniversity", "name": "Universidade Federal de Pernambuco (UFPE)"},
+      {"@type": "CollegeOrUniversity", "name": "UNIFESP"},
+      {"@type": "Hospital", "name": "Hospital SickKids, Toronto"}
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header class="header">
+  <div class="header__inner">
+    <a href="index.html" class="logo">
+      <span class="logo__nome">Dra. Marcela Leal</span>
+      <span class="logo__esp">Uropediatra</span>
+    </a>
+    <nav class="nav">
+      <a href="sobre.html">Sobre</a>
+      <a href="tratamentos/index.html">Tratamentos</a>
+      <a href="telemedicina.html">Telemedicina</a>
+      <a href="perguntas-frequentes.html">Perguntas</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <a href="https://wa.me/5511955585111?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta."
+       class="btn btn--laranja header__cta" target="_blank" rel="noopener">
+      📅 Agendar Consulta
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Menu mobile -->
+<div class="mobile-menu" id="mobile-menu">
+  <button class="mobile-menu__close" id="close-menu">✕</button>
+  <a href="sobre.html">Sobre a Dra. Marcela</a>
+  <a href="tratamentos/index.html">Tratamentos</a>
+  <a href="telemedicina.html">Telemedicina</a>
+  <a href="perguntas-frequentes.html">Perguntas</a>
+  <a href="contato.html">Contato</a>
+  <a href="https://wa.me/5511955585111?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta."
+     class="btn btn--whatsapp" target="_blank" rel="noopener">💬 WhatsApp Jundiaí</a>
+  <a href="https://wa.me/5511955585111?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20em%20São%20Paulo."
+     class="btn btn--laranja" target="_blank" rel="noopener">💬 WhatsApp São Paulo</a>
+</div>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="container">
+    <div class="hero__inner">
+      <div class="hero__texto">
+        <div class="hero__badge">🏥 Uropediatra em Jundiaí e São Paulo</div>
+        <h1>Seu filho tem um problema urológico.<br>
+        Você merece uma especialista <span>de verdade.</span></h1>
+        <p class="hero__sub">
+          Dra. Marcela Leal da Cruz — Doutorado pela UNIFESP e formação no
+          Hospital SickKids de Toronto. Mais de 10 anos dedicados exclusivamente
+          à saúde urológica de crianças e adolescentes.
+        </p>
+        <div class="btn-group hero__ctas">
+          <a href="https://wa.me/5511955585111?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20em%20Jundiaí."
+             class="btn btn--laranja" target="_blank" rel="noopener">
+            💬 WhatsApp Jundiaí
+          </a>
+          <a href="https://wa.me/5511311552800?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20em%20São%20Paulo."
+             class="btn btn--branco" target="_blank" rel="noopener">
+            💬 WhatsApp São Paulo
+          </a>
+        </div>
+      </div>
+      <div class="hero__img">
+        <img src="img/marcela.jpg" alt="Dra. Marcela Leal da Cruz — Uropediatra em Jundiaí e São Paulo" class="hero__foto"
+             onerror="this.outerHTML='<div class=hero__img-placeholder><svg width=80 height=80 viewBox=&quot;0 0 24 24&quot; fill=none stroke=currentColor stroke-width=1 stroke-linecap=round><path d=&quot;M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2&quot;/><circle cx=12 cy=7 r=4/></svg><p>Salvar foto como<br><small>img/marcela.jpg</small></p></div>'">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TRUST BAR ── -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-bar__grid">
+      <div class="trust-item">
+        <div class="trust-item__icon">
+          <svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div>
+        <div class="trust-item__text">
+          <strong>Doutorado UNIFESP</strong>
+          <span>Urologia Pediátrica</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item__icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <div class="trust-item__text">
+          <strong>SickKids Toronto</strong>
+          <span>Referência mundial</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item__icon">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <div class="trust-item__text">
+          <strong>Professora FMJ</strong>
+          <span>Ensino médico</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item__icon">
+          <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div class="trust-item__text">
+          <strong>10+ anos</strong>
+          <span>Clínica e cirurgia</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── VOCÊ CHEGOU NO LUGAR CERTO ── -->
+<section class="section">
+  <div class="container">
+    <span class="tag">Para pais e responsáveis</span>
+    <h2>Você chegou no lugar certo se…</h2>
+    <div class="chegou__grid">
+      <div class="chegou__item">Seu bebê nasceu com hidronefrose e o obstetra pediu acompanhamento</div>
+      <div class="chegou__item">Seu filho tem fimose e você quer saber se precisa de cirurgia</div>
+      <div class="chegou__item">A criança ainda faz xixi na cama e você está preocupada</div>
+      <div class="chegou__item">O pediatra disse que o testículo não desceu (criptorquidia)</div>
+      <div class="chegou__item">Seu filho tem infecção urinária de repetição</div>
+      <div class="chegou__item">Você recebeu um diagnóstico que não entendeu e quer uma explicação clara</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── TRATAMENTOS ── -->
+<section class="section section--alt" id="tratamentos">
+  <div class="container">
+    <div class="trat-header">
+      <span class="tag">Especialidades</span>
+      <h2>Condições tratadas pela Dra. Marcela</h2>
+      <p class="lead">Diagnóstico e tratamento de problemas urológicos e genitais em crianças de todas as idades.</p>
+    </div>
+    <div class="trat-grid">
+      <a href="tratamentos/fimose.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="2.5"/></svg></div>
+        <h3>Fimose</h3>
+        <p>Estreitamento do prepúcio em bebês e crianças</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/criptorquidia.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="9" rx="5" ry="5.5"/><line x1="12" y1="14.5" x2="12" y2="20"/><polyline points="9.5 17.5 12 20 14.5 17.5"/></svg></div>
+        <h3>Criptorquidia</h3>
+        <p>Testículo não descido — diagnóstico e cirurgia</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/enurese-noturna.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/><path d="M16.5 18c0 1.8-1.2 2.8-1.5 2.8s-1.5-1-1.5-2.8a1.5 1.5 0 0 1 3 0z"/></svg></div>
+        <h3>Enurese Noturna</h3>
+        <p>Xixi na cama: causas e tratamentos eficazes</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/hipospadias.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><path d="M12 3c-2.5 0-4 1.5-4 4v5c0 3 1.8 6 4 7 2.2-1 4-4 4-7V7c0-2.5-1.5-4-4-4z"/><circle cx="9" cy="14.5" r="1.5" fill="currentColor" stroke="none"/><line x1="9" y1="14.5" x2="13" y2="14.5"/></svg></div>
+        <h3>Hipospádia</h3>
+        <p>Correção cirúrgica do meato uretral</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/hidronefrose.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><path d="M9 4C6 4.5 4 7.5 4 12s2.5 8 6 8c1 0 2-.5 2.5-1.5.5 1 1.5 1.5 2.5 1.5 3.5 0 6-3.5 6-8 0-4.5-2-7.5-5-8-1 0-2 .5-2.5 1.5C13 4.5 12 4 11 4c-.7 0-1.3 0-2 0z"/><path d="M10 10c.5-1.5 2.5-1.5 4 0"/></svg></div>
+        <h3>Hidronefrose</h3>
+        <p>Acompanhamento pré e pós-natal</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/infeccao-urinaria.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5.64 5.64l2.12 2.12M16.24 16.24l2.12 2.12M5.64 18.36l2.12-2.12M16.24 7.76l2.12-2.12"/></svg></div>
+        <h3>Infecção Urinária</h3>
+        <p>Investigação e tratamento de IU de repetição</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/refluxo-vesicoureteral.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><path d="M12 20c-4 0-7-2.8-7-7V9a7 7 0 0 1 14 0v4c0 4.2-3 7-7 7z"/><polyline points="10 13 12 10 14 13"/><polyline points="10 10 12 7 14 10"/></svg></div>
+        <h3>Refluxo Vesicoureteral</h3>
+        <p>Diagnóstico, grau e indicação de tratamento</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/penis-embutido.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="17.5" rx="7" ry="3.5"/><line x1="12" y1="4" x2="12" y2="14"/><polyline points="9 11 12 14 15 11"/></svg></div>
+        <h3>Pênis Embutido</h3>
+        <p>Avaliação e correção cirúrgica</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/bexiga-neurogenica.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><path d="M12 20c-4 0-7-2.8-7-7V9a7 7 0 0 1 14 0v4c0 4.2-3 7-7 7z"/><polyline points="13.5 9.5 11 13.5 13 13.5 10.5 17.5"/></svg></div>
+        <h3>Bexiga Neurogênica</h3>
+        <p>Manejo de disfunção de bexiga neurológica</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/hidrocele.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><ellipse cx="12" cy="15" rx="6.5" ry="5.5"/><path d="M9.5 12c.5-2.5 5-2.5 5 0"/><circle cx="11" cy="14" r=".8" fill="currentColor" stroke="none"/><circle cx="13.5" cy="16" r=".8" fill="currentColor" stroke="none"/></svg></div>
+        <h3>Hidrocele</h3>
+        <p>Acúmulo de líquido no escroto em bebês</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/varicocele.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><path d="M9 3c0 4 6 4 6 8s-6 4-6 8"/><path d="M15 3c0 4-6 4-6 8s6 4 6 8"/></svg></div>
+        <h3>Varicocele</h3>
+        <p>Avaliação e tratamento em adolescentes</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+      <a href="tratamentos/disfuncoes-miccionais.html" class="trat-card">
+        <div class="trat-card__icon"><svg viewBox="0 0 24 24"><path d="M12 20c-4 0-7-2.8-7-7V9a7 7 0 0 1 14 0v4c0 4.2-3 7-7 7z"/><path d="M8.5 14.5c.7-.8 1.5-.8 2 0s1.3.8 2 0 1.3-.8 2 0"/></svg></div>
+        <h3>Disfunções Miccionais</h3>
+        <p>Urgência, frequência e perda urinária diurna</p>
+        <span class="trat-card__link">Saiba mais →</span>
+      </a>
+    </div>
+    <div class="trat-ver-mais">
+      <a href="tratamentos/index.html" class="btn btn--azul">Ver todos os tratamentos →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── SOBRE (resumo) ── -->
+<section class="section" id="sobre">
+  <div class="container">
+    <div class="sobre-resumo__inner">
+      <div class="sobre-resumo__img">
+        <img src="img/marcela.jpg" alt="Dra. Marcela Leal da Cruz — Uropediatra" class="sobre-resumo__foto"
+             onerror="this.outerHTML='<div style=&quot;text-align:center;color:var(--cinza);padding:32px&quot;><svg width=80 height=80 viewBox=&quot;0 0 24 24&quot; fill=none stroke=currentColor stroke-width=1><path d=&quot;M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2&quot;/><circle cx=12 cy=7 r=4/></svg><p style=&quot;font-size:0.85rem;margin-top:12px&quot;>Salvar foto como<br><small>img/marcela.jpg</small></p></div>'">
+      </div>
+      <div>
+        <span class="tag">Sobre a especialista</span>
+        <h2>Mais de 10 anos dedicados à saúde urológica das crianças</h2>
+        <p style="margin-top:16px;">
+          Dra. Marcela Leal da Cruz formou-se em Medicina pela UFPE (2008) e realizou residências
+          em Cirurgia Geral e Urologia, seguidas de fellowship e doutorado em Urologia Pediátrica
+          pela UNIFESP.
+        </p>
+        <p>
+          Realizou observership no <strong>Hospital SickKids de Toronto</strong> — referência mundial
+          em cirurgia pediátrica — e hoje é Professora Colaboradora na FMJ e membro do CACAU
+          (Centro de Atenção à Criança e ao Adolescente Urológico).
+        </p>
+        <div class="sobre-resumo__creds">
+          <div class="cred-item">Doutorado em Urologia — UNIFESP</div>
+          <div class="cred-item">Observership — Hospital SickKids, Toronto (Canadá)</div>
+          <div class="cred-item">Fellowship em Uropediatria</div>
+          <div class="cred-item">Professora Colaboradora — FMJ</div>
+          <div class="cred-item">Membro do CACAU</div>
+        </div>
+        <a href="sobre.html" class="btn btn--azul">Conheça minha trajetória completa →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── DEPOIMENTOS ── -->
+<section class="section section--alt" id="depoimentos">
+  <div class="container">
+    <span class="tag">O que os pais dizem</span>
+    <h2>Depoimentos de famílias atendidas</h2>
+    <div class="dep-grid">
+      <div class="dep-card">
+        <div class="dep-stars"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <p class="dep-card__texto">
+          "A Dra. Marcela foi incrível desde a primeira consulta. Explicou tudo com calma,
+          sem pressa, e meu filho saiu da cirurgia sem complicações. Ela está de parabéns."
+        </p>
+        <div class="dep-card__autor">
+          <strong>Carla M.</strong><br>
+          <span>Mãe de paciente — Jundiaí, SP</span>
+        </div>
+      </div>
+      <div class="dep-card">
+        <div class="dep-stars"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <p class="dep-card__texto">
+          "Meu bebê foi diagnosticado com hidronefrose ainda na gestação. A Dra. Marcela
+          nos acompanhou desde o nascimento com muito profissionalismo e humanidade."
+        </p>
+        <div class="dep-card__autor">
+          <strong>Fernanda R.</strong><br>
+          <span>Mãe de paciente — São Paulo, SP</span>
+        </div>
+      </div>
+      <div class="dep-card">
+        <div class="dep-stars"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <p class="dep-card__texto">
+          "Após anos com meu filho fazendo xixi na cama, finalmente encontramos a especialista
+          certa. Tratamento funcionou em 3 meses. Não tenho palavras para agradecer."
+        </p>
+        <div class="dep-card__autor">
+          <strong>Roberto S.</strong><br>
+          <span>Pai de paciente — Campinas, SP</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section class="section" id="faq">
+  <div class="container">
+    <span class="tag">Dúvidas frequentes</span>
+    <h2>Perguntas que os pais mais fazem</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">
+          Fimose tem cura sem cirurgia?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Sim. Na maioria dos casos, a fimose em bebês e crianças pequenas resolve espontaneamente
+            ou com uso de pomada de corticoide. A cirurgia (postectomia) é indicada apenas quando há
+            infecções de repetição, dor, ou ausência de melhora com o tratamento clínico. A Dra. Marcela
+            avalia cada caso individualmente antes de qualquer indicação cirúrgica.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          Com que idade operar criptorquidia (testículo não desceu)?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            A recomendação atual é realizar a orquidopexia entre 6 e 18 meses de idade.
+            Quanto mais cedo, menor o risco de comprometimento da fertilidade futura.
+            Se o testículo não desceu até os 6 meses, a probabilidade de descida espontânea é muito baixa.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          Xixi na cama é normal? Até que idade?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Enurese noturna é considerada normal até os 5-6 anos. Após essa idade, merece
+            avaliação especializada — existem tratamentos eficazes e a condição tem cura
+            na grande maioria dos casos. Nunca culpe a criança: é uma condição médica, não
+            falta de vontade.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          Qual a diferença entre uropediatra e urologista comum?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            O uropediatra tem especialização adicional no sistema urinário e genital de crianças
+            e adolescentes, que tem anatomia, fisiologia e necessidades completamente diferentes
+            dos adultos. É o especialista indicado para qualquer problema urológico em menores
+            de 18 anos.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          A Dra. Marcela atende por telemedicina?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Sim. Consultas online estão disponíveis para pacientes de outras cidades e estados.
+            Entre em contato pelo WhatsApp para verificar disponibilidade e agendar uma
+            teleconsulta.
+          </div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          É possível agendar pelo plano de saúde?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            A Dra. Marcela atende exclusivamente como particular. Muitos planos de saúde oferecem
+            reembolso para consultas com especialistas fora da rede — verifique com seu plano.
+            Entre em contato para valores e formas de pagamento.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PARA MÉDICOS ── -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="medicos-strip">
+      <div class="medicos-strip__texto">
+        <strong><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;margin-right:6px"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg> Para médicos encaminhadores</strong>
+        <p>Pediatras, neonatologistas e obstetras: canal direto para encaminhamento.
+        Atendo em Jundiaí e SP. Laudo de retorno em até 48h.</p>
+      </div>
+      <a href="https://wa.me/5511955585111?text=Olá,%20sou%20médico%20e%20gostaria%20de%20encaminhar%20um%20paciente."
+         class="btn btn--teal btn--azul" target="_blank" rel="noopener">
+        💬 WhatsApp exclusivo para médicos
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── LOCAIS ── -->
+<section class="section" id="locais">
+  <div class="container">
+    <span class="tag">Onde atendo</span>
+    <h2>Locais de atendimento</h2>
+    <div class="locais__grid">
+      <div class="local-card">
+        <div class="local-card__mapa">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="var(--azul)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom:6px"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><br>
+          <strong>Jundiaí</strong><br>
+          <small>Clínica Vacine — inserir Google Maps embed</small>
+        </div>
+        <div class="local-card__info">
+          <span class="local-card__badge">Jundiaí</span>
+          <h3>Clínica Vacine</h3>
+          <p>Av. Dona Manoela Lacerda de Vergueiro, 200</p>
+          <p>📞 (11) 4521-5757 / 4521-6714</p>
+          <p>📱 WhatsApp: (11) 95558-5111</p>
+          <a href="https://wa.me/5511955585111?text=Olá,%20gostaria%20de%20agendar%20em%20Jundiaí."
+             class="btn btn--whatsapp" target="_blank" rel="noopener">
+            💬 Agendar em Jundiaí
+          </a>
+        </div>
+      </div>
+      <div class="local-card">
+        <div class="local-card__mapa">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="var(--azul)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom:6px"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><br>
+          <strong>São Paulo</strong><br>
+          <small>Hospital Infantil Sabará — inserir Google Maps embed</small>
+        </div>
+        <div class="local-card__info">
+          <span class="local-card__badge">São Paulo</span>
+          <h3>Hospital Infantil Sabará</h3>
+          <p>Centro de Excelência — São Paulo, SP</p>
+          <p>📱 WhatsApp: (11) 3155-2800</p>
+          <a href="https://wa.me/5511311552800?text=Olá,%20gostaria%20de%20agendar%20em%20São%20Paulo."
+             class="btn btn--whatsapp" target="_blank" rel="noopener">
+            💬 Agendar em São Paulo
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── INSTAGRAM ── -->
+<section class="instagram">
+  <div class="container">
+    <div class="instagram__header">
+      <span class="tag tag--teal">Nas redes sociais</span>
+      <h2>Conteúdo educativo sobre saúde urológica infantil</h2>
+      <p>A Dra. Marcela compartilha orientações, dicas e esclarecimentos para pais e responsáveis.</p>
+      <a href="https://www.instagram.com/dra.uropediatra/" target="_blank" rel="noopener" class="instagram__handle">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        @dra.uropediatra
+      </a>
+    </div>
+    <div class="instagram__grid">
+      <a href="https://www.instagram.com/dra.uropediatra/" target="_blank" rel="noopener" class="instagram__post">
+        <div class="instagram__post-thumb instagram__post-thumb--tema" style="background:linear-gradient(145deg,#1A6FA3 0%,#0d4572 100%)">
+          <div class="instagram__post-topic-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="2.5"/></svg>
+          </div>
+          <div class="instagram__post-play">
+            <svg viewBox="0 0 24 24" fill="white" stroke="none"><circle cx="12" cy="12" r="11" fill="rgba(255,255,255,0.2)"/><polygon points="10 8 18 12 10 16 10 8" fill="white"/></svg>
+          </div>
+          <div class="instagram__post-topic">
+            <span class="instagram__post-topic-title">Fimose</span>
+            <span class="instagram__post-topic-sub">O que é e quando tratar?</span>
+          </div>
+          <div class="instagram__badge"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/dra.uropediatra/" target="_blank" rel="noopener" class="instagram__post">
+        <div class="instagram__post-thumb instagram__post-thumb--tema" style="background:linear-gradient(145deg,#2A9D8F 0%,#1a6558 100%)">
+          <div class="instagram__post-topic-icon">
+            <svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/><path d="M16.5 18c0 1.8-1.2 2.8-1.5 2.8s-1.5-1-1.5-2.8a1.5 1.5 0 0 1 3 0z"/></svg>
+          </div>
+          <div class="instagram__post-play">
+            <svg viewBox="0 0 24 24" fill="white" stroke="none"><circle cx="12" cy="12" r="11" fill="rgba(255,255,255,0.2)"/><polygon points="10 8 18 12 10 16 10 8" fill="white"/></svg>
+          </div>
+          <div class="instagram__post-topic">
+            <span class="instagram__post-topic-title">Enurese Noturna</span>
+            <span class="instagram__post-topic-sub">Xixi na cama tem cura</span>
+          </div>
+          <div class="instagram__badge"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/dra.uropediatra/" target="_blank" rel="noopener" class="instagram__post">
+        <div class="instagram__post-thumb instagram__post-thumb--tema" style="background:linear-gradient(145deg,#264653 0%,#152530 100%)">
+          <div class="instagram__post-topic-icon">
+            <svg viewBox="0 0 24 24"><ellipse cx="12" cy="9" rx="5" ry="5.5"/><line x1="12" y1="14.5" x2="12" y2="20"/><polyline points="9.5 17.5 12 20 14.5 17.5"/></svg>
+          </div>
+          <div class="instagram__post-play">
+            <svg viewBox="0 0 24 24" fill="white" stroke="none"><circle cx="12" cy="12" r="11" fill="rgba(255,255,255,0.2)"/><polygon points="10 8 18 12 10 16 10 8" fill="white"/></svg>
+          </div>
+          <div class="instagram__post-topic">
+            <span class="instagram__post-topic-title">Criptorquidia</span>
+            <span class="instagram__post-topic-sub">Quando o tempo importa</span>
+          </div>
+          <div class="instagram__badge"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div>
+        </div>
+      </a>
+    </div>
+    <div class="instagram__cta">
+      <a href="https://www.instagram.com/dra.uropediatra/" target="_blank" rel="noopener" class="btn--instagram">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        Seguir no Instagram
+      </a>
+      <p style="margin-top:12px;font-size:0.82rem;color:var(--cinza)">Conteúdo educativo sobre saúde urológica infantil — dicas, orientações e esclarecimentos para pais.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA FINAL ── -->
+<section class="section section--dark cta-final">
+  <div class="container">
+    <h2>Cada dia de espera é um dia a mais<br>de preocupação que você não precisa ter.</h2>
+    <p>Agende agora. Atendo em Jundiaí e São Paulo.</p>
+    <div class="btn-group" style="justify-content:center">
+      <a href="https://wa.me/5511955585111?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20em%20Jundiaí."
+         class="btn btn--whatsapp" target="_blank" rel="noopener">💬 WhatsApp Jundiaí</a>
+      <a href="https://wa.me/5511311552800?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20em%20São%20Paulo."
+         class="btn btn--laranja" target="_blank" rel="noopener">💬 WhatsApp São Paulo</a>
+      <a href="contato.html" class="btn btn--outline" style="border-color:rgba(255,255,255,0.4);color:#fff">
+        Formulário de contato
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__logo">
+        <div class="logo">
+          <span class="logo__nome">Dra. Marcela Leal da Cruz</span>
+          <span class="logo__esp">Uropediatra</span>
+        </div>
+        <p style="margin-top:12px">Especialista em condições urológicas e genitais
+        em crianças e adolescentes. Atende em Jundiaí e São Paulo.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="sobre.html">Sobre a Dra. Marcela</a></li>
+          <li><a href="tratamentos/index.html">Tratamentos</a></li>
+          <li><a href="telemedicina.html">Telemedicina</a></li>
+          <li><a href="perguntas-frequentes.html">Perguntas Frequentes</a></li>
+          <li><a href="contato.html">Contato e Agendamento</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tratamentos</h4>
+        <ul>
+          <li><a href="tratamentos/fimose.html">Fimose</a></li>
+          <li><a href="tratamentos/criptorquidia.html">Criptorquidia</a></li>
+          <li><a href="tratamentos/enurese-noturna.html">Enurese Noturna</a></li>
+          <li><a href="tratamentos/index.html">Ver todos →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Dra. Marcela Leal da Cruz. Todos os direitos reservados.</span>
+      <span class="footer__crm">CRM-SP 160106 | RQE 69202</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ── WHATSAPP FLUTUANTE ── -->
+<div class="whatsapp-float">
+  <a href="https://wa.me/5511311552800?text=Olá,%20gostaria%20de%20agendar%20em%20São%20Paulo."
+     class="whatsapp-float__btn" target="_blank" rel="noopener">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    SP
+  </a>
+  <a href="https://wa.me/5511955585111?text=Olá,%20gostaria%20de%20agendar%20em%20Jundiaí."
+     class="whatsapp-float__btn whatsapp-float__btn--jundiai" target="_blank" rel="noopener">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    Jundiaí
+  </a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
