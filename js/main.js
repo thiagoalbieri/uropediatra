@@ -86,40 +86,5 @@ document.addEventListener('DOMContentLoaded', () => {
       observer.observe(el);
     });
 
-  // ── Formulário de contato (Formspree) ────────────────────
-  const form = document.getElementById('contato-form');
-  if (form) {
-    form.addEventListener('submit', async e => {
-      e.preventDefault();
-      const btn = form.querySelector('[type="submit"]');
-      const notice = document.getElementById('form-notice');
-      const success = document.getElementById('form-success');
-      const error = document.getElementById('form-error');
-
-      btn.textContent = 'Enviando...';
-      btn.disabled = true;
-      if (notice) notice.style.display = 'none';
-
-      try {
-        const response = await fetch(form.action, {
-          method: 'POST',
-          body: new FormData(form),
-          headers: { Accept: 'application/json' }
-        });
-
-        if (response.ok) {
-          if (success) success.style.display = 'block';
-          form.reset();
-        } else {
-          if (error) error.style.display = 'block';
-        }
-      } catch {
-        if (error) error.style.display = 'block';
-      }
-
-      btn.textContent = 'Enviar mensagem';
-      btn.disabled = false;
-    });
-  }
 
 });
