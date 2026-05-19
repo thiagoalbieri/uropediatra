@@ -10,10 +10,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const closeMenu  = document.getElementById('close-menu');
 
   if (hamburger && mobileMenu) {
-    hamburger.addEventListener('click', () => mobileMenu.classList.add('open'));
-    closeMenu.addEventListener('click',  () => mobileMenu.classList.remove('open'));
+    const openMenu = () => {
+      mobileMenu.classList.add('open');
+      hamburger.setAttribute('aria-expanded', 'true');
+    };
+    const closeMenuFn = () => {
+      mobileMenu.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    };
+    hamburger.addEventListener('click', openMenu);
+    closeMenu.addEventListener('click', closeMenuFn);
     mobileMenu.querySelectorAll('a').forEach(a =>
-      a.addEventListener('click', () => mobileMenu.classList.remove('open'))
+      a.addEventListener('click', closeMenuFn)
     );
   }
 
@@ -78,23 +86,39 @@ document.addEventListener('DOMContentLoaded', () => {
       observer.observe(el);
     });
 
-  // ── Formulário de contato ─────────────────────────────────
+  // ── Formulário de contato (Formspree) ────────────────────
   const form = document.getElementById('contato-form');
   if (form) {
-    form.addEventListener('submit', e => {
+    form.addEventListener('submit', async e => {
       e.preventDefault();
       const btn = form.querySelector('[type="submit"]');
+      const notice = document.getElementById('form-notice');
+      const success = document.getElementById('form-success');
+      const error = document.getElementById('form-error');
+
       btn.textContent = 'Enviando...';
       btn.disabled = true;
+      if (notice) notice.style.display = 'none';
 
-      // Aqui integraria com backend / Formspree / EmailJS
-      setTimeout(() => {
-        const msg = document.getElementById('form-success');
-        if (msg) msg.style.display = 'block';
-        form.reset();
-        btn.textContent = 'Enviar mensagem';
-        btn.disabled = false;
-      }, 1200);
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' }
+        });
+
+        if (response.ok) {
+          if (success) success.style.display = 'block';
+          form.reset();
+        } else {
+          if (error) error.style.display = 'block';
+        }
+      } catch {
+        if (error) error.style.display = 'block';
+      }
+
+      btn.textContent = 'Enviar mensagem';
+      btn.disabled = false;
     });
   }
 

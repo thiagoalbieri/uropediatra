@@ -47,6 +47,30 @@ img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 ul { list-style: none; }
 
+/* ── Acessibilidade ── */
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  background: var(--azul);
+  color: var(--branco);
+  padding: 10px 20px;
+  border-radius: 0 0 var(--raio-sm) var(--raio-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  z-index: 10000;
+  transition: top 0.15s;
+}
+.skip-to-content:focus-visible {
+  top: 0;
+}
+
+:focus-visible {
+  outline: 3px solid var(--azul);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
 /* ── Utilitários ── */
 .container { max-width: var(--max-w); margin: 0 auto; padding: 0 20px; }
 .section { padding: 64px 0; }
