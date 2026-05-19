@@ -588,14 +588,14 @@ p:last-child { margin-bottom: 0; }
   box-shadow: var(--sombra-sm);
 }
 .local-card__mapa {
-  background: var(--azul-light);
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--azul);
-  font-size: 0.85rem;
-  font-weight: 600;
+  height: 220px;
+  overflow: hidden;
+}
+.local-card__mapa iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
 }
 .local-card__info { padding: 24px; }
 .local-card__badge {
