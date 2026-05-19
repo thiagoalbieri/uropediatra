@@ -70,6 +70,21 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // ── Active state na navegação ────────────────────────────
+  const path = window.location.pathname;
+  const filename = path.split('/').pop() || 'index.html';
+  document.querySelectorAll('.nav a, .mobile-menu a').forEach(link => {
+    const href = link.getAttribute('href');
+    if (!href || href.startsWith('http')) return;
+    const linkFile = href.split('/').pop();
+    const isTratatamentos = path.includes('/tratamentos/') && href.includes('tratamentos');
+    const isExact = linkFile === filename || (linkFile === 'index.html' && filename === '');
+    if (isTratatamentos || isExact) {
+      link.classList.add('active');
+      link.setAttribute('aria-current', 'page');
+    }
+  });
+
   // ── Animação fade-in ao entrar na tela ───────────────────
   const observer = new IntersectionObserver(entries => {
     entries.forEach(e => {
@@ -80,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, { threshold: 0.1 });
 
-  document.querySelectorAll('.trat-card, .dep-card, .chegou__item, .trust-item')
+  document.querySelectorAll('.trat-card, .dep-card, .trust-item')
     .forEach(el => {
       el.style.opacity = '0';
       observer.observe(el);
