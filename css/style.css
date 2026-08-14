@@ -828,8 +828,8 @@ p:last-child { margin-bottom: 0; }
 }
 
 /* ── CONTATO ── */
-.contato-info { display: grid; gap: 40px; margin-top: 40px; }
-.contato-info__sidebar { display: flex; flex-direction: column; gap: 24px; }
+.contato-info { margin-top: 40px; }
+.contato-info__sidebar { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; align-items: start; }
 .whatsapp-cta-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-bottom: 48px; }
 .whatsapp-cta-grid .btn { justify-content: center; padding: 18px; font-size: 1.05rem; }
 .form-group { margin-bottom: 16px; }
@@ -857,7 +857,6 @@ p:last-child { margin-bottom: 0; }
 .form-group textarea { resize: vertical; min-height: 120px; }
 .form-row { display: grid; gap: 16px; }
 @media (min-width: 640px) { .form-row { grid-template-columns: 1fr 1fr; } }
-@media (min-width: 768px) { .contato-info { grid-template-columns: 1fr 1fr; } }
 
 /* ── CHIP GRID (páginas de tratamento) ── */
 .chegou__grid { display: grid; gap: 12px; margin-top: 16px; }
