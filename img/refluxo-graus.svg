@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" role="img" aria-label="Ilustração esquemática dos graus I a V do refluxo vesicoureteral">
+  <rect width="1000" height="470" fill="#fff"/>
+  <text x="500" y="22" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="13" fill="#1A1A2E">Esquema: rim → ureter → bexiga · em azul, a urina que reflui da bexiga em direção ao rim</text>
+  
+  <g>
+    <path d="M 42,300 C 42,262 158,262 158,300 C 158,345 42,345 42,300 Z" fill="#EBF4FB" stroke="#1A6FA3" stroke-width="2.5"/>
+                   <path d="M 50,305 C 60,335 140,335 150,305 C 130,322 70,322 50,305 Z" fill="#1A6FA3" opacity=".35"/>
+    <line x1="114" y1="124" x2="106.20454545454545" y2="222" stroke="#CBD5E1" stroke-width="5" stroke-linecap="round"/>
+              <line x1="106.20454545454545" y1="222" x2="100" y2="300" stroke="#1A6FA3" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 98.92,254.72 L 103.92,246.72 L 108.92,254.72" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/><path d="M 102,216 L 107,208 L 112,216" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+    <path d="M 88,38 C 42,36 36,92 58,128 C 74,154 108,154 124,132 C 104,122 104,96 126,82 C 142,66 132,40 88,38 Z" fill="#FBE3D3" stroke="#D9A27A" stroke-width="2.5"/>
+    <line x1="98" y1="96" x2="72" y2="66" stroke="#CBD5E1" stroke-width="2.4" stroke-linecap="round"/>
+     <circle cx="72" cy="66" r="4" fill="#fff" stroke="#CBD5E1" stroke-width="2"/><line x1="98" y1="96" x2="66" y2="98" stroke="#CBD5E1" stroke-width="2.4" stroke-linecap="round"/>
+     <circle cx="66" cy="98" r="4" fill="#fff" stroke="#CBD5E1" stroke-width="2"/><line x1="98" y1="96" x2="76" y2="126" stroke="#CBD5E1" stroke-width="2.4" stroke-linecap="round"/>
+     <circle cx="76" cy="126" r="4" fill="#fff" stroke="#CBD5E1" stroke-width="2"/><circle cx="98" cy="96" r="5" fill="#fff" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="100" y="392" text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="22" fill="#E08A45">Grau I</text>
+    <text x="100" y="418" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="12.5" fill="#6B7280">Refluxo no ureter distal</text>
+    <text x="100" y="436" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="12.5" fill="#6B7280">apenas, sem dilatação</text>
+  </g>
+  <g>
+    <path d="M 242,300 C 242,262 358,262 358,300 C 358,345 242,345 242,300 Z" fill="#EBF4FB" stroke="#1A6FA3" stroke-width="2.5"/>
+                   <path d="M 250,305 C 260,335 340,335 350,305 C 330,322 270,322 250,305 Z" fill="#1A6FA3" opacity=".35"/>
+    <path d="M 314,124 L 300,300" fill="none" stroke="#1A6FA3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 298.92,254.72 L 303.92,246.72 L 308.92,254.72" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/><path d="M 302,216 L 307,208 L 312,216" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+    <path d="M 288,38 C 242,36 236,92 258,128 C 274,154 308,154 324,132 C 304,122 304,96 326,82 C 342,66 332,40 288,38 Z" fill="#FBE3D3" stroke="#D9A27A" stroke-width="2.5"/>
+    <line x1="298" y1="96" x2="272" y2="66" stroke="#145A87" stroke-width="3" stroke-linecap="round"/>
+     <circle cx="272" cy="66" r="5" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><line x1="298" y1="96" x2="266" y2="98" stroke="#145A87" stroke-width="3" stroke-linecap="round"/>
+     <circle cx="266" cy="98" r="5" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><line x1="298" y1="96" x2="276" y2="126" stroke="#145A87" stroke-width="3" stroke-linecap="round"/>
+     <circle cx="276" cy="126" r="5" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><circle cx="298" cy="96" r="6" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/>
+    <text x="300" y="392" text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="22" fill="#E08A45">Grau II</text>
+    <text x="300" y="418" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="12.5" fill="#6B7280">Refluxo até a pelve</text>
+    <text x="300" y="436" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="12.5" fill="#6B7280">renal, sem dilatação</text>
+  </g>
+  <g>
+    <path d="M 442,300 C 442,262 558,262 558,300 C 558,345 442,345 442,300 Z" fill="#EBF4FB" stroke="#1A6FA3" stroke-width="2.5"/>
+                   <path d="M 450,305 C 460,335 540,335 550,305 C 530,322 470,322 450,305 Z" fill="#1A6FA3" opacity=".35"/>
+    <path d="M 514,124 C 521,169 507,199 514,224 S 493,260 500,300" fill="none" stroke="#1A6FA3" stroke-width="9" stroke-linecap="round"/>
+    <path d="M 498.92,254.72 L 503.92,246.72 L 508.92,254.72" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/><path d="M 502,216 L 507,208 L 512,216" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+    <path d="M 488,38 C 442,36 436,92 458,128 C 474,154 508,154 524,132 C 504,122 504,96 526,82 C 542,66 532,40 488,38 Z" fill="#FBE3D3" stroke="#D9A27A" stroke-width="2.5"/>
+    <line x1="498" y1="96" x2="472" y2="66" stroke="#145A87" stroke-width="4.2" stroke-linecap="round"/>
+     <circle cx="472" cy="66" r="7" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><line x1="498" y1="96" x2="466" y2="98" stroke="#145A87" stroke-width="4.2" stroke-linecap="round"/>
+     <circle cx="466" cy="98" r="7" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><line x1="498" y1="96" x2="476" y2="126" stroke="#145A87" stroke-width="4.2" stroke-linecap="round"/>
+     <circle cx="476" cy="126" r="7" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><circle cx="498" cy="96" r="9" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/>
+    <text x="500" y="392" text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="22" fill="#E08A45">Grau III</text>
+    <text x="500" y="418" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="12.5" fill="#6B7280">Dilatação moderada do</text>
+    <text x="500" y="436" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="12.5" fill="#6B7280">ureter e da pelve renal</text>
+  </g>
+  <g>
+    <path d="M 642,300 C 642,262 758,262 758,300 C 758,345 642,345 642,300 Z" fill="#EBF4FB" stroke="#1A6FA3" stroke-width="2.5"/>
+                   <path d="M 650,305 C 660,335 740,335 750,305 C 730,322 670,322 650,305 Z" fill="#1A6FA3" opacity=".35"/>
+    <path d="M 714,124 C 730,169 698,199 714,224 S 684,260 700,300" fill="none" stroke="#1A6FA3" stroke-width="14" stroke-linecap="round"/>
+    <path d="M 698.92,254.72 L 703.92,246.72 L 708.92,254.72" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/><path d="M 702,216 L 707,208 L 712,216" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+    <path d="M 688,38 C 642,36 636,92 658,128 C 674,154 708,154 724,132 C 704,122 704,96 726,82 C 742,66 732,40 688,38 Z" fill="#FBE3D3" stroke="#D9A27A" stroke-width="2.5"/>
+    <line x1="698" y1="96" x2="672" y2="66" stroke="#145A87" stroke-width="6" stroke-linecap="round"/>
+     <circle cx="672" cy="66" r="10" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><line x1="698" y1="96" x2="666" y2="98" stroke="#145A87" stroke-width="6" stroke-linecap="round"/>
+     <circle cx="666" cy="98" r="10" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><line x1="698" y1="96" x2="676" y2="126" stroke="#145A87" stroke-width="6" stroke-linecap="round"/>
+     <circle cx="676" cy="126" r="10" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><circle cx="698" cy="96" r="13" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/>
+    <text x="700" y="392" text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="22" fill="#E08A45">Grau IV</text>
+    <text x="700" y="418" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="12.5" fill="#6B7280">Dilatação acentuada com</text>
+    <text x="700" y="436" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="12.5" fill="#6B7280">tortuosidade do ureter</text>
+  </g>
+  <g>
+    <path d="M 842,300 C 842,262 958,262 958,300 C 958,345 842,345 842,300 Z" fill="#EBF4FB" stroke="#1A6FA3" stroke-width="2.5"/>
+                   <path d="M 850,305 C 860,335 940,335 950,305 C 930,322 870,322 850,305 Z" fill="#1A6FA3" opacity=".35"/>
+    <path d="M 914,124 C 942,169 886,199 914,224 S 872,260 900,300" fill="none" stroke="#1A6FA3" stroke-width="22" stroke-linecap="round"/>
+    <path d="M 898.92,254.72 L 903.92,246.72 L 908.92,254.72" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/><path d="M 902,216 L 907,208 L 912,216" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+    <path d="M 888,38 C 842,36 836,92 858,128 C 874,154 908,154 924,132 C 904,122 904,96 926,82 C 942,66 932,40 888,38 Z" fill="#FBE3D3" stroke="#D9A27A" stroke-width="2.5"/>
+    <line x1="898" y1="96" x2="872" y2="66" stroke="#145A87" stroke-width="8.4" stroke-linecap="round"/>
+     <circle cx="872" cy="66" r="14" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><line x1="898" y1="96" x2="866" y2="98" stroke="#145A87" stroke-width="8.4" stroke-linecap="round"/>
+     <circle cx="866" cy="98" r="14" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><line x1="898" y1="96" x2="876" y2="126" stroke="#145A87" stroke-width="8.4" stroke-linecap="round"/>
+     <circle cx="876" cy="126" r="14" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/><circle cx="898" cy="96" r="18" fill="#1A6FA3" stroke="#145A87" stroke-width="2"/>
+    <text x="900" y="392" text-anchor="middle" font-family="Nunito, 'Segoe UI', sans-serif" font-weight="800" font-size="22" fill="#E08A45">Grau V</text>
+    <text x="900" y="418" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="12.5" fill="#6B7280">Dilatação maciça, ureter</text>
+    <text x="900" y="436" text-anchor="middle" font-family="Inter, 'Segoe UI', sans-serif" font-size="12.5" fill="#6B7280">muito tortuoso</text>
+  </g>
+</svg>
