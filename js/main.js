@@ -103,3 +103,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
+// ── Rastreamento de conversões GA4: cliques em WhatsApp e telefone ──
+document.addEventListener('click', function (ev) {
+  var a = ev.target.closest ? ev.target.closest('a[href]') : null;
+  if (!a || typeof gtag !== 'function') return;
+  var href = a.getAttribute('href') || '';
+  if (href.indexOf('wa.me') !== -1) {
+    gtag('event', 'clique_whatsapp', { link_url: href, page_path: location.pathname });
+  } else if (href.indexOf('tel:') === 0) {
+    gtag('event', 'clique_telefone', { link_url: href, page_path: location.pathname });
+  }
+});
