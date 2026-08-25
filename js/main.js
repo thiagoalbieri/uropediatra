@@ -111,7 +111,9 @@ document.addEventListener('click', function (ev) {
   var href = a.getAttribute('href') || '';
   if (href.indexOf('wa.me') !== -1) {
     gtag('event', 'clique_whatsapp', { link_url: href, page_path: location.pathname });
+    gtag('event', 'conversion', { send_to: 'AW-17507271693/EeS7CLTS6uccEI2Ij5xB', value: 1.0, currency: 'BRL' });
   } else if (href.indexOf('tel:') === 0) {
     gtag('event', 'clique_telefone', { link_url: href, page_path: location.pathname });
+    gtag('event', 'conversion', { send_to: 'AW-17507271693/lYWZCJ2u6-ccEI2Ij5xB', value: 1.0, currency: 'BRL' });
   }
 });
