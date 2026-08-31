@@ -1,0 +1,18 @@
+# Framework AIOS e configuracao de agentes (nao publicar no repo do site)
+.aios-core/
+.claude/
+squads/
+AGENTS.md
+.aios/
+
+# Dependencias
+node_modules/
+
+# Ambiente
+.env
+.env.local
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
