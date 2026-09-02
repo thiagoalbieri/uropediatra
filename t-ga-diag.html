@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>diag</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17507271693"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-RP8SZJRV67",{page_title:"Diag HTTPS"});gtag("config","AW-17507271693");</script>
+</head><body>
+<a id="w" href="https://wa.me/5511955585111" target="_blank">wa</a>
+<pre id="log">X</pre>
+<script src="js/main.js"></script>
+<script>
+setTimeout(function(){ document.getElementById("w").click(); }, 6000);
+setTimeout(function(){
+  document.getElementById("log").textContent = "HTTPS-DIAG: containers=" +
+    (window.google_tag_manager ? Object.keys(window.google_tag_manager).filter(function(k){return /^(G|A|GT)-/.test(k);}).join(",") : "nao carregou") +
+    " dataLayer=" + window.dataLayer.length;
+}, 14000);
+</script>
+</body></html>
