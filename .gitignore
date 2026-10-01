@@ -16,3 +16,12 @@ node_modules/
 Thumbs.db
 desktop.ini
 .DS_Store
+.meta-token.txt
+
+# HyperFrames — frames e renders intermediarios (pesados, reconstruiveis)
+teste-legendas/frames_bg/
+teste-legendas/frames_fg/
+teste-legendas/*.mp4
+teste-legendas/*.mov
+teste-legendas/*.wav
+video-dra-marcela/*.mp4
