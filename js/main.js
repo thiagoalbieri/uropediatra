@@ -112,8 +112,11 @@ document.addEventListener('click', function (ev) {
   if (href.indexOf('wa.me') !== -1) {
     gtag('event', 'clique_whatsapp', { link_url: href, page_path: location.pathname });
     gtag('event', 'conversion', { send_to: 'AW-17507271693/EeS7CLTS6uccEI2Ij5xB', value: 1.0, currency: 'BRL' });
+    // Meta: sem parametros — a doenca pesquisada nao vai junto
+    if (typeof fbq === 'function') fbq('track', 'Contact');
   } else if (href.indexOf('tel:') === 0) {
     gtag('event', 'clique_telefone', { link_url: href, page_path: location.pathname });
     gtag('event', 'conversion', { send_to: 'AW-17507271693/lYWZCJ2u6-ccEI2Ij5xB', value: 1.0, currency: 'BRL' });
+    if (typeof fbq === 'function') fbq('track', 'Contact');
   }
 });
